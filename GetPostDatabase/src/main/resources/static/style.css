@@ -1,0 +1,62 @@
+@charset "ISO-8859-1";
+
+body
+{
+	background-color: lightblue;
+
+
+}
+
+
+#title
+{
+	margin-top: 10%;
+	height: 50px;
+	width: 20%;
+	margin-left: 40%;
+	
+
+}
+
+#title li
+
+{
+
+	color: red;
+	list-style: none;
+	margin-left: 25% ;
+}
+
+
+#list table
+
+{	margin: auto;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	border-left: 1px solid;
+	border-right: 1px solid;
+}
+
+
+#list table th
+{
+	border-right: 1px solid ;
+	width: 10%;
+
+
+
+
+}
+
+
+#list table  tbody  td
+{
+
+	border:all;
+	border-top:1px solid;
+	border-right:1px solid;
+	
+	
+	
+	
+}

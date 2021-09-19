@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Hello</title>
+
+</head>
+<body>
+
+
+<h1 id="title"><li>List User</li></h1>
+<a > New User</a>
+<br>
+<form action="#" th:action="@{/save}" th:object="${user}" method ="post">
+
+	<table>
+		<tr>
+			<td>UserID </td>
+			<td><input type ="text"th:field ="*{id}"/> </td>
+		</tr>
+	
+		<tr>
+			<td>UserAccount </td>
+			<td><input type ="text"th:field ="*{taikhoan}"/> </td>
+		</tr>
+		
+		<tr>
+			<td>Password </td>
+			<td><input type ="text"th:field ="*{matkhau}"/> </td>
+		</tr>
+		
+		<tr>
+			<td>UserName </td>
+			<td><input type ="text"th:field ="*{hoten}"/> </td>
+		</tr>
+		<tr>
+			<td>UserPhone </td>
+			<td><input type ="text"th:field ="*{dienthoai}"/> </td>
+		</tr>
+	
+		<tr>
+			<td>UserEmail </td>
+			<td><input type ="text"th:field ="*{email}"/> </td>
+		</tr>
+	
+		<tr>
+			<td>UserAddress</td>
+			<td><input type ="text"th:field ="*{diachi}"/> </td>
+		</tr>
+		
+		
+		<tr>
+			<td>UserRole</td>
+			<td><input type ="text"th:field ="*{role}"/> </td>
+		</tr>
+		
+		
+		<tr>
+			<td>UserStatus</td>
+			<td><input type ="text"th:field ="*{status}"/> </td>
+		</tr>
+		
+		
+		
+		<tr>
+			<td><button type="submit">Save</button></td>
+			
+		</tr>
+	
+	
+	
+	</table>
+
+
+
+
+</form>
+
+
+
+
+
+
+
+</body>
+</html>
